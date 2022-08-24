@@ -119,4 +119,102 @@ body{
   border-radius: 2px;
   box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
 }
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 2rem;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+
+.card {
+  /* Border on card */
+  max-width: 15rem;
+  height: 7rem;
+  padding: 1rem;
+  font-family: 'Permanent Marker', cursive;
+  border-radius: 8px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.card-content > p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #4c4c4c;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.card-color-1 {
+  background-color: #ead3a7;
+}
+
+.card-color-2 {
+  background-color: #9de0f5;
+}
+
+.card-color-3 {
+  background-color: #ef89ba;
+}
+
+.card-color-4 {
+  background-color: #fae890;
+}
+
+.card-color-5 {
+  background-color: #abe9c1;
+}
+
+.card-rotation-1 {
+  transform: rotate(1.4deg);
+}
+
+.card-rotation-2 {
+  transform: rotate(-1.8deg);
+}
  
+.card-rotation-3 {
+  transform: rotate(-3deg);
+}
+
+.card-rotation-4 {
+  transform: rotate(2.9deg);
+}
+
+.card-rotation-5 {
+  transform: rotate(-2.2deg);
+}
+
+.card-rotation-6 {
+  transform: rotate(-1.7deg);
+}
+
+.card-rotation-7 {
+  transform: rotate(4deg);
+}
+
+.card-rotation-8 {
+  transform: rotate(-4deg);
+}
+
+.card-rotation-9 {
+  transform: rotate(-2.5deg);
+}
+
+.card-rotation-10 {
+  transform: rotate(3.5deg);
+}
+
+.card-rotation-11 {
+  transform: rotate(-3.1deg);
+}
