@@ -131,7 +131,6 @@ body{
 }
 
 .card {
-  /* Border on card */
   max-width: 15rem;
   height: 7rem;
   padding: 1rem;
