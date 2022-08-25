@@ -29,12 +29,49 @@ body {
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
+
+.form-card {
+  display: flex;
+  margin-right: 20rem;
+  margin-left: 20rem;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+.btn {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-weight: bold;
+}
+.form-card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: left;
+  width: 100%;
+  border: 0;
+  margin-bottom: 1rem;
+  color: #4c4c4c;
+}
+.autoresize {
+  font-size: 1rem;
+  font-weight: medium;
+  text-align: left;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  border: 0;
+  color: #4c4c4c;
+}
+
 .btn {
   position: relative;
   display: block;
   padding: 10px 15px;
 
   overflow: hidden;
+
+  width: 100%;
+  justify-content: center;
+  font-weight: bold;
 
   border-width: 0;
   outline: none;
@@ -218,3 +255,4 @@ body {
 .card-rotation-11 {
   transform: rotate(-3.1deg);
 }
+
