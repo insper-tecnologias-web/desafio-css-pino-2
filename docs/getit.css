@@ -117,13 +117,9 @@ body {
 }
 
 .appbar {
-  top: 0;
-  left: 0;
-  right: 0;
   height: 5rem;
-  width: 100%;
+  width: 100vw;
   background-color: #f7d736;
-  z-index: 1;
   display: flex;
   flex-direction: row;
   align-items: center;
