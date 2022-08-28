@@ -5,7 +5,7 @@ Grupo:
 - Arthur Cisotto Machado
 - Lucas Gurgel Novais
 - André Felipe Bulcão Brito
-- Link do GitHub Pages: COLOQUE O LINK AQUI (POR EXEMPLO: https://barbaratieko.github.io/tecweb-2021-2-desafio-css/)
+- Link do GitHub Pages: https://insper-tecnologias-web.github.io/desafio-css-pino-2
 
 ## Desafio CSS
 
