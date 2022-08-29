@@ -30,13 +30,6 @@ body {
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
 
-.form-card {
-  display: flex;
-  margin-right: 20rem;
-  margin-left: 20rem;
-  border-radius: 5px;
-  font-family: 'Roboto', sans-serif;
-}
 .btn {
   display: flex;
   width: 100%;
@@ -57,7 +50,7 @@ body {
   font-weight: medium;
   text-align: left;
   width: 100%;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   border: 0;
   color: #4c4c4c;
 }
@@ -151,13 +144,13 @@ body {
 
 .form-card {
   display: flex;
+  border-radius: 12px;
+  font-family: "Roboto", sans-serif;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   min-width: 40rem;
-  background-color: #ffffff;
   padding: 1rem;
-  border-radius: 2px;
   box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
 }
 
@@ -200,6 +193,8 @@ body {
   color: #4c4c4c;
   text-align: left;
   margin-bottom: 1rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .card-color-1 {
@@ -265,4 +260,3 @@ body {
 .card-rotation-11 {
   transform: rotate(-3.1deg);
 }
-
